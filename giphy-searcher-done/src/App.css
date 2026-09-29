@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  border: 2px solid #6157ff;
+  box-shadow: 0 0 18px 2px rgba(98, 87, 255, 0.5);
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: #6157ff;
+  text-transform: uppercase;
+}
+
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0909;
+  color: aliceblue;
+}
+
+.title h1 {
+  margin: .5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #6157ff;
+  text-transform: uppercase;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.search-bar input {
+  padding: 0.6rem 0.8rem;
+  font-size: 1.25rem;
+  width: min(450px, 70vw);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-bar button,
+.load-more {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 6px;
+  background: #6157ff;
+  color: white;
+  cursor: pointer;
+}
+
+.load-more {
+  margin: 1.5rem auto;
+}
+
+.error-message {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  color: #aa3e3e;
+  text-align: center;
+}
+
+/* Grid for Gif results for trending and search -
+generated with Copilot, edited by me */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 100%;
+}
+
+.card {
+  background-color: #6257ffdc;
+  border-radius: 4px;
+  /* Changed vertical offset to 0 and added a 2px spread */
+  box-shadow: 0 0 18px 2px rgba(98, 87, 255, 0.5);
+  padding: 5px;
+  margin-bottom: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  /* Changed vertical offset to 0 and added a 4px spread */
+  box-shadow: 0 0 25px 4px #57ddffcc;
+  background-color: #57ddffcc;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Responsive Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 15px;
+}
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 3px;
+    margin-bottom: 5px;
+  }
+
+  .card img {
+    height: 220px;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 5px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 550px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 2px;
+    margin-bottom: 5px;
+  }
+
+  .card img {
+    height: 220px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}

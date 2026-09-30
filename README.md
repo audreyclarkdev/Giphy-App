@@ -4,6 +4,10 @@ A responsive React app that lets you browse trending GIFs and search for any top
 
 🔗 **Live demo:** [your-deployed-url.netlify.app](https://...)
 
+![Giphy Searcher app's home page showing a grid of trending GIFs](./src/assets/trending.png)
+
+![GIF ofsearching the term "coding" in search bar](./src/assets/giphy-search.gif)
+
 ## How to Use
 
 When the app loads, you'll see trending GIFs — type a term and press Enter (or click Search) to find GIFs on any topic. Use "Load More" to see additional results, or "Back to Trending" to reset.
@@ -46,10 +50,6 @@ You can get a free API key by creating an app at [developers.giphy.com](https://
 ```
 npm run dev
 ```
-
-## Screenshot
-
-![Giphy App screenshot](screenshot.png)
 
 ## What I Learned
 

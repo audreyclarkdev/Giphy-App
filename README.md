@@ -28,15 +28,23 @@ When the app loads, you'll see trending GIFs — type a term and press Enter (or
 
 1. Clone the repo
 ```
-   git clone https://github.com/audreyclarkdev/Giphy-App.git
+git clone https://github.com/audreyclarkdev/Giphy-App.git
 ```
 2. Install dependencies
 ```
-   npm install
+npm install
 ```
-3. Start the app
+3. Set up your API key
+
+Create a `.env` file in the root of the project and add your Giphy API key:
 ```
-   npm run dev
+VITE_GIPHY_KEY=your_api_key_here
+```
+You can get a free API key by creating an app at [developers.giphy.com](https://developers.giphy.com).
+
+4. Start the app
+```
+npm run dev
 ```
 
 ## Screenshot

@@ -6,9 +6,9 @@ When the app loads, you'll see trending GIFs — type a term and press Enter (or
 
 🔗 **Live site:** [Audrey's Giphy App](https://audrey-giphy-app.netlify.app/)
 
-![Giphy Searcher app's home page showing a grid of trending GIFs](./src/assets/trending-home.gif)
+![Giphy Searcher app's home page showing a grid of trending GIFs](./src/assets/trending-home-higher-quality.gif)
 
-![GIF ofsearching the term "coding" in search bar](./src/assets/giphy-search.gif)
+![GIF ofsearching the term "coding" in search bar](./src/assets/giphy-search-higher-quality.gif)
 
 
 ## Features

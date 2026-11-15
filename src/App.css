@@ -91,7 +91,7 @@ generated with Copilot, edited by me */
 }
 
 .card {
-  background-color: #6257ffdc;
+  background-color: transparent;
   border-radius: 4px;
   /* Changed vertical offset to 0 and added a 2px spread */
   box-shadow: 0 0 18px 2px rgba(98, 87, 255, 0.5);
@@ -102,8 +102,8 @@ generated with Copilot, edited by me */
 
 .card:hover {
   /* Changed vertical offset to 0 and added a 4px spread */
-  box-shadow: 0 0 25px 4px #57ddffcc;
-  background-color: #57ddffcc;
+  box-shadow: 0 0 25px 4px #6157ff;
+  background-color: #6157ff26; /* Added a subtle background color on hover */
 }
 
 .card img {
